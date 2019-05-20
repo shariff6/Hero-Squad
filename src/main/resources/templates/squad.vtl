@@ -1,0 +1,12 @@
+<h1>$squad.getName() heros:</h1>
+
+<ul>
+  #foreach($hero in $squad.getHeros())
+  <h1>$hero.getName()</h1>
+  <li>Age:  $hero.getAge()</li>
+  <li>SuperPower:  $hero.getSpecialPower()</li>
+  <li>Weakness:  $hero.getWeakness()</li> #end
+</ul>
+
+<a href="/squads/$squad.getId()/heros/new">Add a new hero</a>
+<a href="/squads">All squads</a>
