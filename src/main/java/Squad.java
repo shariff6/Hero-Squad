@@ -8,8 +8,9 @@ public class Squad {
     private int mId;
     private List<Hero> mHeros;
 
-    public Squad(String name) {
+    public Squad(String name, Integer maxSize) {
         mName = name;
+        mMaxSize = maxSize;
         instances.add(this);
         mId = instances.size();
         mHeros = new ArrayList<Hero>();
