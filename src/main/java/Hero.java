@@ -1,4 +1,3 @@
-import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -10,8 +9,11 @@ public class Hero {
     private static List<Hero> instances = new ArrayList<Hero>();
     private int mId;
 
-    public Hero(String name) {
+    public Hero(String name, Integer age, String specialPower, String weakness) {
         mName = name;
+        mAge = age;
+        mSpecialPower = specialPower;
+        mWeakness = weakness;
         instances.add(this);
         mId = instances.size();
     }
