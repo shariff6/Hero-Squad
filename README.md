@@ -31,3 +31,7 @@ Tests are run using gradle. From the root of the project directory run gradle te
 ## License
 
 This project is licensed under the MIT License - see the [MIT LICENCE](https://opensource.org/licenses/MIT) file for details
+
+## Website
+
+The application can be accesses from [here](vast-stream-35690.herokuapp.com)
