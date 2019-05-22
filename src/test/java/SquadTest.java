@@ -59,5 +59,9 @@ public class SquadTest {
         testSquad.addHero(testHero);
         assertTrue(testSquad.getHeros().contains(testHero));
     }
+    @Test
+    public void find_returnsNullWhenNoTaskFound_null() {
+        assertTrue(Squad.find(999) == null);
+    }
 
 }

@@ -44,5 +44,9 @@ public class HeroTest {
     Hero secondHero = new Hero("SpiderMan", 35, "Spiderstuff", "Mary Jane");
     assertEquals(Hero.find(secondHero.getId()), secondHero);
   }
+  @Test
+  public void find_returnsNullWhenNoTaskFound_null() {
+    assertTrue(Hero.find(999) == null);
+  }
 
 }
