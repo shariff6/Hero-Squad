@@ -34,4 +34,4 @@ This project is licensed under the MIT License - see the [MIT LICENCE](https://o
 
 ## Website
 
-The application can be accesses from [here](vast-stream-35690.herokuapp.com)
+The application can be accesses from [here](https://vast-stream-35690.herokuapp.com)
